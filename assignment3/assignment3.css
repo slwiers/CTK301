@@ -1,0 +1,75 @@
+h1 {
+    color: #8e0202;
+  }
+
+h1 {
+    background-color: #ffb6c8; 
+
+}
+
+h2 {
+    color: #5f0000;
+  }
+
+h2 {
+    background-color: #fcd6e0; 
+
+}
+
+h3 {
+    color: #390000;
+  }
+
+h3 {
+    background-color: #f8e6eb; 
+
+}
+
+  h4 {
+    color: #1c0000;
+  }
+
+h4 {
+    background-color: #fcf0f3; 
+
+}
+
+p {
+    background-color: #fce5eb; 
+
+}
+
+p {
+    color: #ed0000;
+
+  }
+
+.specialp {
+    color: #785b5b;
+
+}
+
+.spanstyle {
+    color: #974d4d;
+
+}
+
+a {
+    color: #ff0000;
+  }
+  
+  a:link {
+    color: #ff0000;
+  }
+  
+  a:visited {
+    color: #1aff00;
+  }
+  
+  a:active {
+    color: #ff0000;
+  }
+  
+  a:hover {
+    color: #ffff00;
+  }        
