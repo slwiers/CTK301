@@ -1,0 +1,72 @@
+a {
+    color: green;
+    text-decoration: none;
+
+  }
+
+a:link {
+    color: green;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: red;
+    text-decoration: underline;
+
+  }
+
+  .Sky {
+    color:aliceblue;
+
+  }
+
+  .Fire {
+    color: blue;
+
+  }
+
+  .Doctor {
+    color: orange;
+
+  }
+
+  .Inferno {
+    background-color: yellow;
+
+  }
+
+  .Paragraph {
+    color: red;
+
+  }
+
+  .Day {
+    color: yellow;
+    background-color: green;
+
+  }
+
+  .Art {
+    background-color: darkseagreen;
+
+  }
+
+  .Daughter {
+    color: red;
+
+  }
+
+  .The {
+    color:blue;
+
+  }
+
+  #Header {
+    background-color:cornflowerblue;
+
+  }
+
+  .Footer {
+    background-color: yellow;
+
+  }
