@@ -1,0 +1,136 @@
+#wrapper {
+    margin: 1em auto;
+    width: 960px;
+    border: 5px solid black;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+
+}
+
+body {
+    background-color: pink;
+    background-image: url(a62.png);
+
+}
+
+header {
+    grid-column: span 12;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Helvetica, sans-serif;
+    font-style: italic;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-top: 5px solid black;
+    background-color: red;
+    grid-column: span 12;
+    color: white
+}
+
+.header1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: black;
+    font-weight: normal;
+    padding: 20px;
+
+}
+
+.header2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 20px;
+
+}
+
+.floatimg {
+    float: left;
+    width: 400px;
+    margin: 20px;
+    background-color: white;
+    border: 3px solid black;
+    padding: 10px;
+}
+
+.nav {
+    font-family: Arial, Helvetica, sans-serif;
+    grid-column: span 2;
+    margin-left: 15px;
+
+}
+
+.just {
+    font-family: Georgia, 'Times New Roman', Times, serif, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: justify;
+
+}
+
+.justone {
+        border-top: 3px solid black;
+        padding-top: 15px;
+        margin-left: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif, Helvetica, sans-serif;
+        font-weight: bold;
+        text-align: justify;
+
+}
+
+.paragraph {
+    margin-left: 20px;
+
+}
+
+main {
+    grid-column: span 10;
+    margin-right: 20px;
+    margin-left: 20px;
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav li {
+    margin: 5px;
+    margin-bottom: 20px;
+    width: 150px;
+    background-color: red;
+
+  }
+  
+  nav li a {
+    color: white;
+    font-weight: normal;
+    padding: 10px;
+    text-decoration:none;
+    display: block;
+  }
+  
+  nav li a:hover {
+    color:white;
+    font-weight: normal;
+    background-color: darkred;
+    text-decoration:none;
+  }
+
+  a {
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+font-weight: bold;
+color: blue;
+text-decoration: underline;
+
+}
