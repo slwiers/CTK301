@@ -1,0 +1,220 @@
+body {
+  background-color: grey;
+
+}
+
+#wrapper {
+    margin: 1em auto;
+    width: 960px;
+    border: 5px solid blue;
+    background-image: linear-gradient(to bottom, #217aff, #1966d6, #1353ae, #0f4188, #0c2f64);
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+header {
+    grid-column: span 12;
+
+}
+
+header a {
+  font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    text-decoration: none;
+    color: lightblue;
+    margin: 20px 20px 0px 20px;
+
+}
+
+.four {
+  display: inline-block;
+
+}
+
+nav {
+    grid-column: span 12;
+}
+
+nav ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+
+}
+
+nav li {
+    display: inline-block;
+    padding: 20px 40px 20px 40px;
+    margin: 3px;
+    width: 150px;
+    background-image: linear-gradient(to bottom, #217aff, #1966d6, #1353ae, #0f4188, #0c2f64);
+    color: lightblue;
+  }
+
+  nav li a {
+    display: block;
+    color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  nav li a:hover {
+    display: block;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .link {
+    font-weight: bold;
+    text-decoration: none;
+    color: red;
+  }
+
+  .welcome1 {
+    grid-column: span 3;
+    background-color: lightblue;
+  }
+
+  .welcome1 h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    margin: 20px;
+    font-weight: normal;
+    border-bottom: 3px solid blue;
+
+  }
+
+  .EEAAO {
+    float: left;
+    margin: 0px 20px 0px 20px;
+    width: 300px;
+    border: 3px solid blue;
+  }
+
+  .welcome1 p {
+    margin: 20px;
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+
+  }
+
+  .welcome2 {
+    grid-column: span 9;
+    background-color: white;
+
+  }
+
+  .welcome2 h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    margin: 20px;
+    font-weight: normal;
+    border-bottom: 3px solid blue;
+
+  }
+
+.welcome2 p {
+    margin: 20px;
+}
+
+footer {
+    grid-column: span 12;
+    background-color:red;
+    border-top: 3px solid blue;
+}
+
+.about1 {
+  grid-column: span 9;
+  background-color: white;
+}
+
+.about1 h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: blue;
+  margin: 20px;
+  font-weight: normal;
+  border-bottom: 3px solid blue;
+
+}
+
+.aboutp {
+  margin: 20px;
+
+}
+
+.rocks {
+  float: right;
+    margin: 20px;
+    width: 300px;
+    border: 3px solid blue;
+}
+
+.about2 {
+  grid-column: span 3;
+  background-color: lightblue;
+
+}
+
+.about2 p {
+  margin: 20px;
+  text-align: justify;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+
+}
+
+.Evelyn1 {
+  grid-column: span 4;
+  background-color: white;
+  padding: 0px 20px 20px 20px;
+
+}
+
+.Evelyn2 {
+  color: blue;
+  border-bottom: 3px solid blue;
+}
+
+.Evelyn {
+  width: 275px;
+
+}
+
+.Waymond1 {
+  grid-column: span 4;
+  background-color: white;
+  padding: 0px 20px 20px 20px;
+
+}
+
+.Waymond2 {
+  color: blue;
+  border-bottom: 3px solid blue;
+}
+
+.Waymond {
+  width: 275px;
+
+}
+
+.Joy1 {
+  grid-column: span 4;
+  background-color: white;
+  padding: 0px 20px 20px 20px;
+
+}
+
+.Joy2 {
+  color: blue;
+  border-bottom: 3px solid blue;
+}
+
+.Joy {
+  width: 275px;
+
+}
