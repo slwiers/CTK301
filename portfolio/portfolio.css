@@ -1,0 +1,314 @@
+body {
+  background-color: #E4E4E4;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  padding: 24px;
+  background-color: #E7E1EC;
+  border: 1px solid #CDCDCD;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+
+}
+
+header {
+  grid-column: span 12;
+  border-radius: 10px;
+
+}
+
+header a {
+  font-family: 'Chivo Mono', monospace;
+  text-decoration: none;
+  color: white;
+
+}
+
+header a:hover {
+  font-family: 'Chivo Mono', monospace;
+  text-decoration: none;
+  color: #E4E4E4;
+
+}
+
+.header {
+  padding: 20px;
+  background-color: #BB85E8;
+  color: white;
+  font-family: 'Chivo Mono', monospace;
+
+}
+
+
+
+nav {
+  grid-column: span 4;
+
+}
+
+nav ul {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+
+}
+
+nav li {
+  margin: 20px 10px 10px 0px;
+  width: 350px;
+  background-color: #BB85E8;
+  border-radius: 10px;
+  color: white;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 25px;
+  text-decoration: none;
+  
+}
+
+nav li:hover {
+  color: #E4E4E4;
+  background-color: #825E9F;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 25px;
+  text-decoration: none;
+  box-shadow: 10px 10px 10px #999999;
+  transition: background-color 0.5s, width 0.5s, color 0.5s;
+  
+}
+
+a {
+  padding: 30px;
+
+}
+
+main {
+  grid-column: span 8;
+
+}
+
+.projecttitle1 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  border-bottom: 3px solid white;
+  padding-bottom: 10px;
+  margin-left: 240px;
+
+}
+
+.img1 {
+  float: left;
+  width: 200px;
+  padding: 20px;
+
+}
+
+.project1 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.img2 {
+  float: right;
+  width: 200px;
+  padding: 20px;
+
+}
+
+.projecttitle2 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  border-bottom: 3px solid white;
+  padding-bottom: 10px;
+  margin-top: 100px;
+  margin-right: 250px;
+  
+}
+
+.project2 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.img3 {
+  float: left;
+  width: 190px;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
+.project3 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:#BB85E8;
+  padding: 20px 20px 50px 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+
+}
+
+.img4 {
+  float: right;
+  width: 175px;
+  padding: 20px;
+  margin-bottom: 20px;
+
+}
+
+.project4 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:#BB85E8;
+  padding: 20px 20px 60px 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  
+}
+
+.img5 {
+  float: left;
+  width: 230px;
+  padding: 20px;
+  margin-bottom: 20px;
+
+}
+
+.project5 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:#BB85E8;
+  padding: 20px 20px 140px 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  
+}
+
+.project6 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:#BB85E8;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  
+}
+
+.img6 {
+  float: left;
+  width: 300px;
+  padding: 20px;
+
+}
+
+.about {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.abouttitle {
+  border-bottom: 3px solid white;
+  margin-left: 340px;
+
+}
+
+.contact {
+  border-bottom: 3px solid white;
+  margin-right: 700px;
+
+}
+
+.studyimg {
+  display: inline-block;
+  margin-top: 20px;
+
+}
+
+.coursehead1 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  border-bottom: 3px solid white;
+  margin-right: 695px;
+}
+
+.coursehead2 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  border-bottom: 3px solid white;
+  margin-right: 610px;
+}
+
+.img7 {
+  width: 225px;
+  padding: 10px;
+
+}
+
+.study1 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.img8 {
+  width: 225px;
+  padding: 10px;
+
+}
+
+.study2 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.img9 {
+  width: 225px;
+  padding: 10px;
+
+}
+
+.study3 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer {
+  grid-column: span 12;
+  padding: 20px;
+  background-color: #BB85E8;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+
+footer a {
+  color: white;
+
+}
+
+footer a:hover {
+  color: #E4E4E4;
+
+}
+
+.socials {
+  margin-top: 10px;
+
+}
