@@ -6,7 +6,7 @@ body {
   margin: 24px auto;
   width: 1200px;
   padding: 24px;
-  background-color: #E7E1EC;
+  background-color: #d2c7db;
   border: 1px solid #CDCDCD;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
